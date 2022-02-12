@@ -16,7 +16,7 @@ document.addEventListener("submit", (event) => {
           title: "éxito",
           text: json.message,
           icon: "success",
-          timer: 1500
+          timer: 2000
         }).then((result) => {
           location.href = "http://localhost:8080/";
         });
